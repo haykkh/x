@@ -1,0 +1,23 @@
+{
+  "name": "x",
+  "version": "1.0.0",
+  "description": "photography project",
+  "main": "docs/index.html",
+  "source": "src/html/index.html",
+  "repository": "git@github.com:haykkh/x.git",
+  "author": "Hayk Khachatryan <hi@hayk.io>",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel src/html/index.html",
+    "build": "parcel build ."
+  },
+  "targets" : {
+    "main": {
+      "distDir": "./docs",
+      "publicUrl": "/x/"
+    }
+  },
+  "devDependencies": {
+    "parcel": "^2.0.0-alpha.3.2"
+  }
+}
